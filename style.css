@@ -1,0 +1,115 @@
+body {
+  background-color: white;
+}
+
+.toggle {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.button {
+  border-radius: 50% !important;
+  font-size: 1.5em;
+  background-color: lightgray;
+}
+
+#switches {
+  position: absolute;
+  font-family: 'Original Surfer', cursive;
+  margin-left: 26px;
+  margin-top: 110px;
+}
+
+input {
+  height: 20px;
+  width: 20px;
+}
+
+.score-text {
+  position: absolute;
+  font-family: 'Original Surfer', cursive;
+  margin-left: 83px;
+  margin-top: 197px;
+}
+
+.power-hard-text {
+  position: absolute;
+  font-family: 'Original Surfer', cursive;
+  margin-left: 19px;
+  margin-top: 142px;
+}
+
+.hard {
+  padding-left: 80px;
+}
+
+#title {
+  font-family: 'Original Surfer', cursive;
+  position: absolute;
+  font-size: 40px;
+  margin-left: 35px;
+  margin-top: 40px;
+}
+
+#score {
+  position: absolute;
+  background: #330000;
+  color: red;
+  font-family: courier;
+  font-size: 20px;
+  height: 30px;
+  width: 50px;
+  margin-left: 90px;
+  margin-top: 170px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+}
+
+
+.btn {
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  top: 50%;
+  left: 50%;
+  border-style: solid;
+  border-width: 10px;
+}
+
+#topLeft {
+  border-radius: 250px 0 0 0;
+  background: darkgreen;
+  margin: -250px 0px 0px -250px;
+}
+
+#topRight {
+  border-radius: 0 250px 0 0;
+  background: darkred;
+  margin: -250px 0px 0px 0px;
+}
+
+#bottomLeft {
+  border-radius: 0 0 0 250px;
+  background: goldenrod;
+  margin: 0px -250px 0px -250px;
+}
+
+#bottomRight {
+  border-radius: 0 0 250px 0;
+  background: darkblue;
+  margin: 0px 0px -250px 0px;
+}
+
+#circle {
+  position: absolute;
+  background: grey;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  border-style: solid;
+  border-width: 10px;
+  top: 50%;
+  left: 50%;
+  margin: -125px 0px 0px -125px;
+}
